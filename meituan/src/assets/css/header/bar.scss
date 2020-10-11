@@ -1,0 +1,41 @@
+.geo {
+    padding-top: 12px;
+    display: flex;
+    float: left;
+    i {
+        padding-top: 2px;
+    }
+    .changeCity {
+        background: #F4F4F4;
+        border: 1px solid #E5E5E5;
+        border-radius: 2px;
+        color: #666;
+        margin: 0 4px;
+        padding: 0 2px;
+    }
+    .city {
+        color: #666;
+    }
+    .near-city {
+        .city-guss {
+            margin: 0 2px;
+            color: #999;
+        }
+    }
+    .user-enstry {
+        margin-left: 15px;
+        a {
+            font-size: 12px;
+            margin-left: 10px;
+        }
+        .user-login {
+            color: #FE8C00;
+        }
+        .user-reg {
+            color: #999;
+            &:hover {
+                color: #FE8C00;
+            }
+        }
+    }
+}

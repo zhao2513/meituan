@@ -1,0 +1,36 @@
+.my-header {
+    background: #fff;
+    box-shadow: 0 2px 27px 0 rgba(0, 0, 0, 0.10);
+}
+
+@media screen and (max-width:1200px) {
+    .my-header .header-content {
+        width: 960px;
+        .header-logo {
+            padding-right: 40px;
+            min-width: 200px;
+        }
+        .header-search-module {
+            width: 420px;
+            .header-search-block {
+                width: 420px;
+            }
+        }
+    }
+    .m-nav {
+        .nav {
+            >li {
+                div.header-nav-site {
+                    width: 960px;
+                    >dl {
+                        margin-right: 40px;
+                    }
+                    .app {
+                        width: 250px;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}

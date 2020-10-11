@@ -1,0 +1,107 @@
+// a color  #41B883
+$a: #222;
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: "-apple-system", "BlinkMacSystemFont", "Roboto", "Helvetica Neue", "MIcrosoft YaHei", sans-serif !important;
+    background-color: #F8F8F8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clearfix {
+    &::after {
+        content: '';
+        visibility: hidden;
+        display: block;
+        clear: both;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+dd,
+dl {
+    margin: 0
+}
+
+.header-content {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+// a的颜色
+a,
+a:hover,
+a:focus,
+a:visited {
+    color: $a;
+}
+
+// 朝下箭头
+i.arrow-todown {
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    width: 6px;
+    display: inline-block;
+    height: 6px;
+    margin: 0px 6px 3px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+}
+
+i.arrow-totop {
+    border-right: 1px solid #333;
+    border-bottom: 1px solid #333;
+    width: 6px;
+    display: inline-block;
+    height: 6px;
+    margin: 0px 6px 3px;
+    transform: rotate(-135deg);
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+.change-color:hover {
+    color: #FE8C00;
+}
+
+// 上下箭头
+.tag-sort {
+    position: relative;
+    padding-right: 10px;
+}
+
+.tag-sort:before,
+.tag-sort:after {
+    border: 3.2px solid transparent;
+    content: "";
+    display: block;
+    height: 0;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    width: 0;
+}
+
+.tag-sort::before {
+    border-bottom-width: 4px;
+    border-bottom-color: #ccc;
+    margin-top: -7px;
+}
+
+.tag-sort::after {
+    border-top-width: 4px;
+    border-top-color: #ccc;
+    margin-top: 2px;
+}

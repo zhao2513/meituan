@@ -1,0 +1,165 @@
+.right-banner {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    position: relative;
+    width: 950px;
+    height: 417px;
+    .home-header-links {
+        position: absolute;
+        top: -45px;
+        left: 20px;
+        ul {
+            li {
+                float: left;
+                a {
+                    color: #222;
+                    font-weight: 700;
+                    font-size: 16px;
+                    margin: 0 20px;
+                    cursor: pointer;
+                    position: relative;
+                }
+            }
+        }
+    }
+    .banner-row {
+        .banner-carousel {
+            width: 550px;
+            height: 240px;
+            float: left;
+        }
+        .pic1 {
+            width: 150px;
+            height: 240px;
+            margin-left: 10px;
+            background-size: 150px;
+            background-position: 50%;
+            background-repeat: no-repeat;
+            background-color: #fff;
+            float: left;
+            background-image: url(http://p0.meituan.net/codeman/e473bb428f070321269b23370ff02ba956209.jpg);
+        }
+        .banner-login {
+            float: left;
+            width: 228px;
+            height: 238px;
+            margin-left: 10px;
+            background-color: #fff;
+            border: 1px solid #e5e5e5;
+            text-align: center;
+            box-sizing: content-box;
+            .login-content {
+                padding-top: 30px;
+                position: relative;
+                .head-img-row {
+                    border-radius: 30px;
+                    margin: 0px auto 4px auto;
+                    img {
+                        width: 47px;
+                        height: 47px;
+                        border-radius: 50%;
+                        border: 4px solid #E5E5E5;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                    color: #222;
+                    text-align: center;
+                    font-weight: 500;
+                    white-space: nowrap;
+                    width: 6em;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    margin: 0 auto;
+                }
+                .btn-login {
+                    width: 118px;
+                    text-align: center;
+                    margin: 10px auto 15px auto;
+                    background: #fff;
+                    border: 1px solid #e5e5e5;
+                    border-radius: 40px;
+                    font-size: 14px;
+                    color: #333;
+                    transition: background-color 0.5s;
+                    display: block;
+                    line-height: 38px;
+                    &:hover {
+                        background-color: #f6f6f6;
+                        transition: background-color 0.5s;
+                    }
+                }
+            }
+        }
+        .banner-row-bottom {
+            height: 177px;
+            .item {
+                float: left;
+            }
+            .pic2 {
+                width: 270px;
+                height: 165px;
+                background-size: 270px;
+                background-position: 50%;
+                background-repeat: no-repeat;
+                margin-top: 10px;
+                margin-right: 10px;
+                background-image: url(http://p1.meituan.net/codeman/8cce56c467a17e04f3094d1e455462a0132772.png);
+            }
+            .pic3 {
+                width: 270px;
+                height: 165px;
+                background-size: 270px;
+                background-position: 50%;
+                background-repeat: no-repeat;
+                margin-top: 10px;
+                margin-right: 10px;
+                background-image: url(http://p1.meituan.net/codeman/16442c19da1f1c4544f794e29d99c92051716.jpg);
+            }
+            .pic4 {
+                width: 150px;
+                height: 165px;
+                margin-top: 10px;
+                margin-right: 10px;
+                background-size: 150px;
+                background-position: 50%;
+                background-repeat: no-repeat;
+                background-color: #fff;
+                background-image: url(http://p1.meituan.net/codeman/5b21cddb4bb1cbc3a9c3bce0f726c75940469.jpg);
+            }
+            .download {
+                width: 228px;
+                height: 165px;
+                text-align: center;
+                margin-top: 10px;
+                background-color: #fff;
+                border: 1px solid #e5e5e5;
+                .qrcode {
+                    margin: 10px auto 0 auto;
+                    img {
+                        width: 95px;
+                        height: 95px;
+                    }
+                }
+                .app-name {
+                    font-size: 16px;
+                    color: #222222;
+                    font-weight: 500;
+                }
+                .sl {
+                    font-size: 12px;
+                    font-weight: 500;
+                    margin-top: 2px;
+                    .red {
+                        color: #EC5330;
+                        margin-right: 5px;
+                    }
+                    .gary {
+                        color: #3f3f3f;
+                    }
+                }
+            }
+        }
+    }
+}

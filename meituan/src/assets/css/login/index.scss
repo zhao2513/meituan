@@ -1,0 +1,292 @@
+.login {
+    header {
+        width: 980px;
+        height: auto;
+        margin: 40px auto 30px;
+        .site-login {
+            background: url(https://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/logo.6a89007.png) no-repeat;
+            background-position: 0!important;
+            background-size: contain!important;
+            display: inline-block;
+            width: 130px;
+            height: 47px;
+        }
+    }
+    //section
+    section {
+        margin: 0 auto 70px;
+        width: 980px;
+        display: flex;
+        .left-logo {
+            height: 370px;
+            margin: 0 115px 0 0;
+            width: 480px;
+            img {
+                width: 100%;
+            }
+        }
+        //section
+        .right-form {
+            margin: 0 auto;
+            width: 270px;
+            form {
+                margin: 0 0 10px;
+                position: relative;
+                .warm-info {
+                    margin-bottom: 10px;
+                    padding: 10px;
+                    border: 1px solid #f5d8a7;
+                    border-radius: 2px;
+                    background: #fff6db;
+                    font-size: 12px;
+                    min-height: 18px;
+                    margin-top: 0;
+                    i {
+                        display: inline-block;
+                        width: 17px;
+                        height: 17px;
+                        margin-right: 5px;
+                        overflow: hidden;
+                        background-position: 0 -191px;
+                        vertical-align: -3px;
+                        background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/icons.c1b3784.png);
+                        background-repeat: no-repeat;
+                        background-position: 0 -296px;
+                    }
+                }
+                //form
+                .title {
+                    display: flex;
+                    justify-content: space-between;
+                    .title-left {
+                        font-weight: 400;
+                        color: #666;
+                    }
+                    .title-right {
+                        position: relative;
+                        padding-right: 16px;
+                        color: #666;
+                        float: right;
+                        font-size: 12px;
+                        height: 17px;
+                        i {
+                            position: absolute;
+                            top: 50%;
+                            right: 0;
+                            margin-top: -7px;
+                            width: 14px!important;
+                            height: 14px!important;
+                            background: url(https://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/normal.97888a3.png);
+                            background-size: contain!important;
+                        }
+                    }
+                }
+                //form
+                .login-item {
+                    box-sizing: border-box;
+                    width: 100%;
+                    padding: 0;
+                    border: 1px solid #aaa;
+                    background-color: #fff;
+                    margin: 8px 0;
+                    overflow: hidden;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    position: relative;
+                    .plus {
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                    }
+                    i.arrow-toright {
+                        width: 5px;
+                        height: 5px;
+                        display: inline-block;
+                        border-right: 1px solid #646464;
+                        border-top: 1px solid #646464;
+                        transform: rotate(45deg);
+                        margin-right: 4px;
+                        position: relative;
+                        bottom: 2px;
+                        box-sizing: content-box;
+                    }
+                    //login-phone
+                    .item-inp {
+                        width: 180px;
+                        padding-left: 5px;
+                        border: none;
+                        max-width: 200px!important;
+                        height: 24px;
+                        padding: 5px;
+                        line-height: 24px;
+                        vertical-align: top;
+                        box-sizing: content-box;
+                        &:focus {
+                            outline: 0;
+                        }
+                    }
+                }
+                //form
+                .login-verify {
+                    position: relative;
+                    padding: 8px 0;
+                    .login-item {
+                        margin: 0;
+                        position: static;
+                        .verify-inp {
+                            width: 140px;
+                            height: 24px;
+                            padding: 5px;
+                            line-height: 24px;
+                            vertical-align: top;
+                            padding-left: 33px;
+                            overflow: hidden;
+                        }
+                        i.lock {
+                            position: absolute;
+                            display: inline-block;
+                            width: 18px;
+                            height: 18px;
+                            top: 16px;
+                            left: 9px;
+                            line-height: 18px;
+                            vertical-align: text-top;
+                            background-position: -1250px -527px;
+                            background-image: url(https://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+                        }
+                        .get-btn {
+                            top: 19px;
+                            padding: 0;
+                            z-index: 10;
+                            position: absolute;
+                            right: 0;
+                            margin-bottom: -3px;
+                            margin-top: -5px;
+                            button {
+                                padding: 1px 8px 0;
+                                font-size: 12px;
+                                outline: none;
+                                border: none;
+                                background: transparent;
+                                color: #666;
+                            }
+                        }
+                    }
+                }
+                //form
+                .forget-pass {
+                    padding: 8px 0;
+                    color: #FE8C00;
+                    font-size: 12px;
+                    text-align: right;
+                }
+                .login-btn {
+                    width: 100%;
+                    cursor: pointer;
+                    border-radius: 2px;
+                    text-align: center;
+                    padding: 7px 20px 6px;
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #222;
+                    background-image: linear-gradient(135deg, #FFD000 0, #FFBD00 100%);
+                    border-width: 0;
+                    box-shadow: 0 2px 1px rgba(191, 105, 0, .15);
+                    background-size: 100%;
+                    margin-bottom: 8px;
+                }
+                .login-policy {
+                    padding: 10px 0;
+                    color: #999;
+                    font-size: 12px;
+                    a {
+                        color: #FE8C00;
+                    }
+                }
+                .login-bottom {
+                    margin-top: 20px;
+                    .hezuo {
+                        position: relative;
+                        margin-bottom: 30px;
+                        border-bottom: 1px solid #CCC;
+                        width: 100%;
+                        height: 0;
+                        overflow: visible;
+                        span {
+                            position: absolute;
+                            top: -10px;
+                            left: 50%;
+                            margin-left: -75px;
+                            width: 150px;
+                            text-align: center;
+                            font-size: 14px;
+                            font-weight: 400;
+                            color: #666;
+                            background: #FFF;
+                        }
+                    }
+                    .other-logo {
+                        padding-left: 88px;
+                        display: flex;
+                        .qq-logo {
+                            background-position: -1250px -491px;
+                        }
+                        .weibo-logo {
+                            background-position: -1250px -599px;
+                        }
+                        span {
+                            margin-right: 20px;
+                            width: 18px;
+                            height: 18px;
+                            background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+                        }
+                    }
+                }
+            }
+        }
+    }
+    //login
+    footer {
+        margin: 0 auto 30px;
+        clear: both;
+        width: 980px;
+        font-size: 12px;
+        color: #999;
+        .footer-site {
+            margin-bottom: 20px;
+            padding: 12px 0;
+            border-top: 1px solid #EEE;
+            border-bottom: 1px solid #EEE;
+            ul {
+                width: 594px;
+                color: #EEE;
+                display: flex;
+                li {
+                    float: left;
+                    margin: 5px 0;
+                    padding: 0 16px;
+                    line-height: 14px;
+                    border-right: 1px solid #EEE;
+                    a {
+                        color: #999;
+                    }
+                }
+                &.first {
+                    padding-left: 0;
+                }
+            }
+        }
+        //footer{}
+        .copyright {
+            text-align: left;
+            clear: both;
+            font-size: 12px;
+            font-family: initial;
+            a {
+                color: #999;
+            }
+        }
+    }
+}

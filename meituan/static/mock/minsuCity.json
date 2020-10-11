@@ -1,0 +1,16 @@
+{
+    "cityList": [
+        { "cityId": 440300, "cityName": "深圳" },
+        { "cityId": 440400, "cityName": "珠海" },
+        { "cityId": 450300, "cityName": "桂林" },
+        { "cityId": 450500, "cityName": "北海" },
+        { "cityId": 460100, "cityName": "海口" },
+        { "cityId": 441300, "cityName": "惠州" },
+        { "cityId": 440600, "cityName": "佛山" },
+        { "cityId": 441900, "cityName": "东莞" },
+        { "cityId": 450200, "cityName": "柳州" },
+        { "cityId": 441800, "cityName": "清远" }
+    ],
+    "message": "成功",
+    "status": 200
+}

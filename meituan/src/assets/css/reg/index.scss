@@ -1,0 +1,214 @@
+header {
+    border-bottom: 2px solid #D8D8D8;
+    min-width: 980px;
+    color: #666;
+    .header-content {
+        margin: 0 auto;
+        padding: 10px 0;
+        width: 980px;
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+        .logo {
+            width: 128px;
+            background: url(https://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/logo.6a89007.png) no-repeat;
+            background-size: contain;
+            display: inline-block;
+            height: 36px;
+            text-indent: -1000px;
+            overflow: hidden;
+        }
+        .right-login {
+            line-height: 36px;
+            span {
+                margin-right: 10px;
+                vertical-align: sub;
+            }
+            .login-btn {
+                box-sizing: content-box;
+                padding: 3px 10px;
+                font-size: 12px;
+                border-color: rgba(191, 105, 0, .15);
+            }
+        }
+    }
+}
+
+section {
+    margin: 0 auto 30px;
+    padding-top: 30px;
+    width: 980px;
+    min-height: 300px;
+    .reg-item {
+        position: relative;
+        padding: 8px 0 8px 110px;
+        zoom: 1;
+        label {
+            position: absolute;
+            left: 0;
+            width: 100px;
+            padding-top: 6px;
+            font-size: 14px;
+            text-align: right;
+            color: #333;
+        }
+        .inp-item {
+            width: 248px;
+            height: 24px;
+            padding: 5px;
+            border: 1px solid #aaa;
+            line-height: 24px;
+            vertical-align: top;
+            box-sizing: content-box;
+            &:focus {
+                border-color: #FFC300;
+                outline: 0;
+            }
+        }
+        //reg-item
+        .inline-tip {
+            display: inline-block;
+            border: none;
+            margin-left: 4px;
+            padding: 6px 0;
+            line-height: 24px;
+            font-size: 12px;
+            color: #666;
+            /* vertical-align: top; */
+            zoom: 1;
+            .succuss {
+                background-position: 0 -453px;
+            }
+            .warm {
+                background-position: 0 -296px;
+            }
+            .tip-status {
+                display: inline-block;
+                width: 17px;
+                height: 17px;
+                margin-right: 5px;
+                overflow: hidden;
+                background-image: url(https://s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/icons.c1b3784.png);
+                background-repeat: no-repeat;
+                vertical-align: -3px;
+            }
+        }
+    } //reg-item
+    .reg-pass {
+        padding-bottom: 27px;
+        .pw-str {
+            position: absolute;
+            width: 260px;
+            top: 50px;
+            left: 110px;
+            background: #eee;
+            .pw-str-bg {
+                background: #d3ebee;
+                height: 20px;
+                width: 0;
+                overflow: hidden;
+                transition: all .4s linear;
+                -webkit-transition: all .4s linear;
+            }
+            >.pw-str-bg-weak {
+                width: 85px;
+                background: #f76120;
+            }
+            >.pw-str-bg-nomal {
+                width: 172px;
+                background: #ff8900;
+            }
+            >.pw-str-bg-strong {
+                width: 260px;
+                background: #5bab3c;
+            }
+            //pw-str
+            .pw-str-bg-content {
+                position: absolute;
+                left: 0;
+                top: 0;
+                .pw-str-bg-span {
+                    display: block;
+                    float: left;
+                    text-align: center;
+                    font-size: 12px;
+                    height: 20px;
+                    line-height: 20px;
+                    width: 85px;
+                    border-right: 2px solid #fff;
+                    color: #fff;
+                    &.border-none {
+                        border-right: 0;
+                    }
+                }
+            }
+        }
+    }
+    .get-info {
+        padding: 0 0 0 110px;
+    }
+    .reg-btn {
+        font-size: 14px;
+        font-weight: 700;
+        -webkit-font-smoothing: antialiased;
+        line-height: 1.5;
+        letter-spacing: .1em;
+        text-align: center;
+        text-decoration: none;
+        border-width: 0 0 1px;
+        border-style: solid;
+        background-repeat: repeat-x;
+        border-radius: 2px;
+        -moz-user-select: -moz-none;
+        -ms-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        cursor: pointer;
+        padding: 7px 20px 6px;
+        display: inline-block;
+    }
+    .reg-item-polic {
+        position: relative;
+        padding: 3px 10px 3px 110px;
+        margin: 0 auto 8px;
+        zoom: 1;
+        a {
+            font-size: 13px;
+            color: #FE8C00;
+            text-decoration: none;
+        }
+    }
+}
+
+.btn {
+    color: #222;
+    background-image: linear-gradient(135deg, #FFD000 0, #FFBD00 100%);
+    border-width: 0;
+    box-shadow: 0 2px 1px rgba(191, 105, 0, .15);
+    background-size: 100%;
+    border-radius: 2px;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    text-align: center;
+    text-decoration: none;
+    border-width: 0 0 1px;
+    border-style: solid;
+    display: inline-block;
+}
+
+footer {
+    border-top: 1px solid #EEE;
+    padding-top: 20px;
+    text-align: center;
+    p {
+        font-size: 12px;
+        font-family: initial;
+        a {
+            color: #999;
+        }
+        span {
+            color: #999;
+            font-size: 13px;
+        }
+    }
+}

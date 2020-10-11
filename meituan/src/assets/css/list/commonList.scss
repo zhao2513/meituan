@@ -1,0 +1,151 @@
+.common-list {
+    background: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    color: #333;
+    font-size: 14px;
+    line-height: 20px;
+    & {
+        margin-top: 10px;
+    }
+    & .common-list-header {
+        padding: 15px 20px 2px;
+        height: 20px;
+        box-sizing: content-box;
+        ul {
+            display: flex;
+            li {
+                min-width: 96px;
+                font-weight: 500;
+                color: #666;
+                cursor: pointer;
+            }
+            & .tag-active {
+                color: #222;
+            }
+        }
+    }
+    .common-list-main {
+        padding: 11px 20px;
+        .default-list {
+            padding: 20px 0 16px;
+            min-height: 125px;
+            border-top: 1px solid #E5E5E5;
+            .common-list-left {
+                position: absolute;
+                height: 125px;
+                width: 220px;
+                background-color: #f4f4f4;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 4px;
+                }
+            }
+            .common-list-right {
+                margin-left: 220px;
+                padding-left: 20px;
+                font-size: 12px;
+                color: #666;
+                & .item-top {
+                    margin-top: 6px;
+                    line-height: 20px;
+                    display: flex;
+                }
+                .list-title {
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: #333;
+                    display: block;
+                    cursor: pointer;
+                }
+                .list-rate {
+                    span {
+                        margin-right: 10px;
+                    }
+                    .comment {
+                        color: #FF9900;
+                    }
+                }
+                .sub-title {
+                    display: flex;
+                    span {
+                        margin-right: 10px;
+                        max-width: 110px;
+                    }
+                    .sec-title {
+                        max-width: 210px;
+                        display: block;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                    & .map {
+                        font-weight: 500;
+                        color: #222222;
+                        cursor: pointer;
+                        .list-map {
+                            width: 12px;
+                            height: 14px;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+                .line {
+                    border-bottom: 1px dashed #E5E5E5;
+                    width: 100%;
+                    padding-top: 10px;
+                }
+                .deal {
+                    margin-bottom: -10px;
+                    padding-top: 10px;
+                    width: 100%;
+                    .deal-main {
+                        display: block;
+                        margin-left: -10px;
+                        padding: 6px 10px 8px;
+                        cursor: pointer;
+                        transition: background-color 200ms;
+                        &:hover {
+                            background-color: #F8F8F8;
+                            border-radius: 4px;
+                        }
+                        .deal-title {
+                            font-size: 14px;
+                            color: #666;
+                            height: 20px;
+                            line-height: 20px;
+                            overflow: hidden;
+                            white-space: nowrap;
+                            text-overflow: ellipsis;
+                        }
+                        .deal-content {
+                            .deal-price {
+                                font-size: 15px;
+                                color: #ff6600;
+                                margin-right: 10px;
+                            }
+                            .deal-val {
+                                font-size: 12px;
+                                color: #999;
+                                margin-right: 10px;
+                            }
+                            .deal-sales {
+                                font-size: 12px;
+                                color: #999;
+                            }
+                        }
+                    }
+                }
+                //p
+                p.toggle {
+                    text-align: left;
+                    margin-top: 16px;
+                    line-height: 1;
+                    font-size: 12px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
